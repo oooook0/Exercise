@@ -17,7 +17,7 @@ def check():
         return 'Linkedin'
     elif request.args['q'] == 'Resume':
         return 'https://www.linkedin.com/in/yitao-sun-146015104/'
-    elif request.args['q'] == 'Email+Address':
+    elif request.args['q'] == 'Email Address':
         return 'yitao.sun@yahoo.com'
     elif request.args['q'] == 'Position':
         return 'Data Pipeline Engineer'    
